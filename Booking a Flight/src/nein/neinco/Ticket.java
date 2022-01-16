@@ -11,6 +11,7 @@ public class Ticket extends Traveller {
 
     //Constructor.
     public Ticket(String dateOfFlight, String flightNumber, String seatNumber, String flightRoute) {
+        super("Bob","bob@whatever.com","767824898","98248923489289253852","832");
         this.dateOfFlight = dateOfFlight;
         this.flightNumber = flightNumber;
         this.seatNumber = seatNumber;

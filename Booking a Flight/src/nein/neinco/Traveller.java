@@ -8,13 +8,17 @@ public class Traveller {
     private String creditCardNumber ;
     private String CVV ;
 
-    //Constructor.
+    //Constructors.
+
     public Traveller(String fullName, String email, String phoneNumber, String creditCardNumber, String CVV) {
         this.fullName = fullName;
         this.email = email;
         this.phoneNumber = phoneNumber;
         this.creditCardNumber = creditCardNumber;
         this.CVV = CVV;
+    }
+
+    public Traveller() {
     }
 
 
