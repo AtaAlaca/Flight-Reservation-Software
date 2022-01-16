@@ -1,6 +1,6 @@
 package nein.neinco;
 
-public class Ticket  {
+public class Ticket extends Traveller {
 
     //Fields.
     private String dateOfFlight ;
