@@ -1,6 +1,6 @@
 package nein.neinco;
 
-public interface ticketToMunchen {
+interface ticketToMunchen {
     
 	void validateFlightInformation();
 
