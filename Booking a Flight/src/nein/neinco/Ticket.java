@@ -34,7 +34,15 @@ public class Ticket extends Traveller {
             System.out.println("VALID FLIGHT INFORMATION.");
     }
 
+    @Override
+    public void validatePersonalInformation() {
+        super.validatePersonalInformation();
+    }
 
+    @Override
+    public void validateCreditCardInformation() {
+        super.validateCreditCardInformation();
+    }
 
     //Getters & Setters.
     public String getDateOfFlight() {
