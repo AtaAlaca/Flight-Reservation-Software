@@ -4,5 +4,6 @@ interface ticketToMunchen {
     
 	void validateFlightInformation();
 
-    void validatePersonalInformation();
+	void validatePersonalInformation();
+	
 }
